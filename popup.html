@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contextualize</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <h1>⚡ Contextualize</h1>
+
+    <section class="api-section">
+      <h2>Groq API Key</h2>
+      <div class="api-row">
+        <input type="password" id="api-key-input" placeholder="gsk_..." />
+        <button id="save-key-btn">Save</button>
+      </div>
+      <p id="key-status" class="status-msg"></p>
+    </section>
+
+    <section class="context-section">
+      <h2>Live Context</h2>
+      <textarea id="context-doc" placeholder="Context will appear here as you chat..."></textarea>
+      <div class="btn-row">
+        <button id="save-btn" class="secondary-btn">Save</button>
+        <button id="clear-btn" class="danger-btn">Clear</button>
+      </div>
+    </section>
+
+    <section class="enhance-section">
+      <button id="enhance-btn" class="primary-btn">⚡ Enhance Current Prompt</button>
+      <p id="enhance-status" class="status-msg"></p>
+    </section>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

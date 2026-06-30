@@ -1,0 +1,25 @@
+#contextualize-enhance-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 56px;
+  z-index: 9999;
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#contextualize-enhance-btn:hover {
+  background: #6d28d9;
+}
+
+#contextualize-enhance-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
